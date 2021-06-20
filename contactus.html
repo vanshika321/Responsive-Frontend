@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="header">
+        <a href="#"><img src="360_F_400478854_eAL87XQTJyakxh1XSadIxSojtBjm7z8b.jpg" alt="" class="logo"></a>
+        <div class="navbar">
+        <ul>
+            <li><a href="indexff.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+             <li><a href="ourteam.html">Our Team</a></li>
+             <li><a href="#">Contact Us</a></li>
+             </ul>
+            
+             <span class="menuicon" id="toggle"> <i class="fa fa-bars"></i></span> 
+        </div>
+    </div>
+         
+    </div> 
+    <section>
+    <div class="container">
+        <h2>Contact Us</h2>
+
+   
+    <div class="row100">
+        <div class="col">
+            <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span class="text">First Name</span>
+                <span class="line"></span>
+            </div>
+        </div>
+        <div class="col">
+            <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span class="text">Last Name</span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row100">
+        <div class="col">
+            <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span class="text">Email</span>
+                <span class="line"></span>
+            </div>
+        </div>
+        <div class="col">
+            <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span class="text">Contanct Number</span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row100">
+        <div class="col">
+            <div class="inputBox textarea">
+            <textarea required="required" ></textarea>
+            <span class="text">Type Your message here...</span>
+            <span class="line"></span>
+        </div>
+        </div>
+    </div>
+    <div class="row100">
+        <div class="col">
+            <input type="submit" value="send">
+        </div>
+    </div>
+</div>
+</section>
+<script>
+    var navbar=document.querySelector(".navbar")
+    var menuicon=document.querySelector(".menuicon")
+    menuicon.addEventListener("click",()=>{
+        navbar.classList.toggle("active")
+    })
+</script>
+</body>
+</html>

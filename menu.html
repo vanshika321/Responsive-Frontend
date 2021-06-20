@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <div class="header">
+          <ul>
+            <li><a href="indexff.html">Home</a></li>
+            <li><a href="#">Menu</a></li>
+             <li><a href="ourteam.html">Our Team</a></li>
+             <li><a href="contactus.html">Contact Us</a></li>
+             <span class="menuicon" id="toggle"> <i class="fa fa-bars"></i></span> 
+ 
+        </ul>
+         
+    </div> 
+    <div class="imgBx">
+        <img src="top-view-delicious-italian-pasta-with-meat-tomato-sauce-grey-surface-meal-pasta-dinner-dough-food.jpg" alt="">
+        <img src="pasta-colored-farfalle-salad-with-tomatoes-mozzarella-basil.jpg" alt="">
+        <img src="top-view-mixed-pizza-with-tomato-black-olive-melted-cheese.jpg" alt="">
+        <img src="spaghetti-mussel-plate-with-raw-pasta-tomato-flour-mushroom-wooden-spoon.jpg" alt="">
+        <img src="plate-pasta-with-homemade-pesto-sauce.jpg" alt="">
+        <img src="penne-pasta-with-pesto-sauce-zucchini-green-peas-basil-italian-food-top-view-flat-lay.jpg" alt="">
+    </div>
+    <h1 class="special">Today's Special</h1>
+    <section class="recommends">
+       
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestiae debitis optio. Et obcaecati error facere fuga perspiciatis fugit nisi cumque corporis voluptates laudantium fugiat mollitia ut culpa perferendis pariatur minima, nihil voluptate expedita molestias. Minus mollitia tempora delectus culpa quod laboriosam labore repellendus nostrum quae, enim deserunt ea ab!</p>
+        <img src="side-view-spaghetti-with-greens-ricotta-cheese-round-white-plate.jpg" alt="">
+    </section>
+    <span class="moon "><i class="fa fa-moon-o" aria-hidden="true"></i></span>
+<script>
+    var moon=document.querySelector(".moon")
+    var body=document.querySelector(".body")
+    var fa=document.querySelector(".fa")
+    var menuicon=document.querySelector(".menuicon")
+    var header=document.querySelector(".header")
+    moon.onclick=function(){
+     body.classList.toggle("dark")
+     if(fa.classList[1]==="fa-moon-o"){
+         fa.className="fa fa-sun-o"
+     }
+
+     else{
+        fa.className="fa fa-moon-o"
+     }
+     }
+     menuicon.onclick=function(){
+        header.classList.toggle("active")
+     }
+</script>
+</body>
+</html>

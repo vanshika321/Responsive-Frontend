@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="indexff.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo"><img src="360_F_400478854_eAL87XQTJyakxh1XSadIxSojtBjm7z8b.jpg" alt=""></div>
+            <ul class="links">
+                <li> <a href="#"> Home</a></li>
+                <li> <a href="menu.html">Menu</a> </li>
+                <li> <a href="ourteam.html">Our Team</a> </li>
+                <li> <a href="contactus.html">Contanct Us</a> </li>
+                <span class="menuicon" id="toggle"> <i class="fa fa-bars"></i></span> 
+            </ul>
+            
+            
+         </div>
+         <div class="content">
+         <h2 id="heading"> fresh and delicious</h2>
+         <div class="text"> traditional Italian food to delight the whole family </div>
+         </div>
+         <div class="btn">Learn More</div>
+        
+       
+    </div>
+  
+    <div class="about">
+        <h1>
+            <div class="headingA">
+            About
+         </div>
+        </h1>
+        <div class="aboutcontent">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quod totam recusandae ducimus voluptas autem. Perspiciatis aperiam omnis accusantium neque itaque, quasi, enim soluta consequatur corporis voluptates vero, tempore alias.</p>
+         <img src="mixed-ingredient-pizza-wooden-board.jpg" alt="">
+     </div>
+     </div>
+     <script>
+         var navbar=document.querySelector(".navbar")
+         var menuicon=document.querySelector(".menuicon")
+         menuicon.addEventListener("click",()=>{
+             navbar.classList.toggle("active")
+         })
+     </script>
+       
+</body>
+</html>
